@@ -1,3 +1,9 @@
+// Author: Daniel Dean dpd@psu.edu
+// Collaborator: Yash Patni 
+// Collaborator: Cameron Ezeiraku
+// Collaborator: Stephanie Huang
+// Section: 2
+// Breakout: 7
 #include <stdio.h>
 #include <stdlib.h>
 #include <readline/readline.h>
