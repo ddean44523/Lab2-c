@@ -1,11 +1,18 @@
+// Author: Daniel Dean dpd@psu.edu
+// Collaborator: Yash Patni 
+// Collaborator: Cameron Ezeiraku
+// Collaborator: Stephanie Huang
+// Section: 2
+// Breakout: 7
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <readline/readline.h>
 
 int main(void) {
-  char * gradeInput;
-  gradeInput = readline("Enter your CMPSC 131 grade: ");
-  double grade = atof(gradeInput);
+  char * grade;
+  grade = readline("Enter your CMPSC 131 grade: ");
+  //double grade = atof(gradeInput);
   if(grade >= 93.0)
    printf("Your letter grade for CMPSC 131 is A.\n");
   else if(grade >= 90.0)
